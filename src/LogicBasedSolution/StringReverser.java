@@ -6,7 +6,6 @@ public class StringReverser {
         StringReverser obj = new StringReverser();
         obj.reversePerWord(reverseIT);
     }
-
     public String reversePerWord(String str){
         String result = "";
         int len = str.length();

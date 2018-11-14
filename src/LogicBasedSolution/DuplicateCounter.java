@@ -33,7 +33,8 @@ public class DuplicateCounter {
         }
         return resultedPairs;
     }
-
+	
+	//print map data
     public void printMapResults(Map<Integer,Integer> toBePrinted){
         for (Map.Entry<Integer, Integer> entry: toBePrinted.entrySet()){
             System.out.println("Number:" + entry.getKey() + "\tTotal Occurances:" + entry.getValue());
